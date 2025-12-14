@@ -6,8 +6,6 @@ At the moment it only buffs:
 - HUGE 249 (Damage and Accuracy)
 - Glock (Firerate and Damage) + Accuracy Nerf to balance it out
 
-Build GMA:
-./gmad create -folder "/pathto/ttt_rebalance/ttt_rebalance" -out "/pathto/ttt_rebalance.gma"
-
-Publish GMA:
-
+Publish:
+LD_LIBRARY_PATH="/pathto/fastgmad_linux" ./fastgmad publish -addon "/pathto/ttt_rebalance/ttt_rebalance" -icon "/pathto/ttt_rebalance/icon.jpg"
+This requires the Open Source FastGMAD Tool and Steam. Sometimes it needs multiple attempts.
