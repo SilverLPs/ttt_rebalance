@@ -23,6 +23,9 @@ local function PatchMAC10()
     wep.Primary.Damage = 18
     print("[TTT ReBalance] Patched MAC10: Primary.Damage = 18")
 
+    wep.Primary.Delay = 0.055
+    print("[TTT ReBalance] Patched MAC10: Primary.Delay = 0.055")
+
     return true
 end
 
