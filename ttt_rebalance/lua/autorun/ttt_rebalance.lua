@@ -9,8 +9,8 @@ local function PatchM16()
     if not wep then return false end
     wep.Primary = wep.Primary or {}
 
-    wep.Primary.Delay = 0.1 -- 600 RPM
-    print("[TTT ReBalance] Patched M16: Primary.Delay = 0.1")
+    wep.Primary.Delay = 0.075
+    print("[TTT ReBalance] Patched M16: Primary.Delay = 0.075")
 
     return true
 end
