@@ -1,0 +1,11 @@
+{
+  "title": "TTT ReBalance",
+  "type": "tool",
+  "ignore": [
+    "*.psd",
+    "*.vcproj",
+    "*.sln",
+    "*.git*",
+    ".git/*"
+  ]
+}
